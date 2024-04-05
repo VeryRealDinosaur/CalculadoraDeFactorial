@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraDeFactorial", "CalculadoraDeFactorial\CalculadoraDeFactorial.csproj", "{48A2E6C9-2C4F-4172-9BE2-858BAAF7B073}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A2E6C9-2C4F-4172-9BE2-858BAAF7B073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A2E6C9-2C4F-4172-9BE2-858BAAF7B073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A2E6C9-2C4F-4172-9BE2-858BAAF7B073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A2E6C9-2C4F-4172-9BE2-858BAAF7B073}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

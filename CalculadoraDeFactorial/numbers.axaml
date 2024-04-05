@@ -1,0 +1,41 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="CalculadoraDeFactorial.numbers"
+        Title="numbers">
+        
+        
+    
+       <Grid RowDefinitions="Auto, Auto, *" HorizontalAlignment="Center" VerticalAlignment="Center">
+           
+           <Grid Grid.Row="0" ColumnDefinitions="Auto, Auto, *">
+                
+               <Grid Grid.Column="0">
+                   <Grid RowDefinitions="Auto, *">
+                       <Label Grid.Row="0"> Número </Label>
+                       <Label Grid.Row="1" x:Name="NumLabel" HorizontalAlignment="Center"></Label>
+                   </Grid>
+               </Grid>
+                
+               <Grid Grid.Column="1">
+                   <Grid RowDefinitions="Auto, *">
+                       <Label Grid.Row="0"> Factorial </Label>
+                       <Label Grid.Row="1" x:Name="FactorialLabel" HorizontalAlignment="Center"> </Label>
+                   </Grid>
+               </Grid>
+               
+           </Grid>   
+           
+           <Button Grid.Row="1" Width="100" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
+                   Click="Button_OnClick">
+               Siguiente 
+               
+           </Button>
+           
+           <Label Grid.Row="2" x:Name="ErrorLabel"></Label>
+           
+       </Grid>
+        
+</Window>
